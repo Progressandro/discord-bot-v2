@@ -54,9 +54,11 @@ module.exports = {
     leaveOnEndCooldown: 30000,
     discordPlayer: {
       ytdlOptions: {
+        requestOptions: {
+          agent,
+        },
         quality: "highestaudio",
         highWaterMark: 1 << 25,
-        agent,
       },
     },
   },
