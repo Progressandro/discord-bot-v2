@@ -1,3 +1,21 @@
+const ytdl = require("@distube/ytdl-core");
+const agent = process.env.LOGIN_INFO
+  ? ytdl.createAgent([
+      {
+        domain: ".youtube.com",
+        expirationDate: 1234567890,
+        hostOnly: false,
+        httpOnly: true,
+        name: "LOGIN_INFO",
+        path: "/",
+        sameSite: "no_restriction",
+        secure: true,
+        session: false,
+        value: process.env.LOGIN_INFO,
+      },
+    ])
+  : undefined;
+
 module.exports = {
   app: {
     token: process.env.DISCORD_TOKEN || "xxx",
@@ -38,6 +56,7 @@ module.exports = {
       ytdlOptions: {
         quality: "highestaudio",
         highWaterMark: 1 << 25,
+        agent,
       },
     },
   },
