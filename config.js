@@ -55,7 +55,9 @@ module.exports = {
     discordPlayer: {
       ytdlOptions: {
         requestOptions: {
-          agent,
+          headers: {
+            cookie: process.env.Login_INFO || "",
+          },
         },
         quality: "highestaudio",
         highWaterMark: 1 << 25,
