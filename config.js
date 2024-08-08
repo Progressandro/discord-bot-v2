@@ -56,7 +56,7 @@ module.exports = {
       ytdlOptions: {
         requestOptions: {
           headers: {
-            cookie: process.env.Login_INFO || "",
+            cookie: process.env.LOGIN_INFO || "",
           },
         },
         quality: "highestaudio",
