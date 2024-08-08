@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@discord-player/extractor", "npm:4.5.0"],\
           ["@discord-player/opus", "npm:0.1.2"],\
           ["@discordjs/opus", "npm:0.9.0"],\
-          ["@distube/ytdl-core", "npm:4.13.5"],\
+          ["@distube/ytdl-core", "npm:4.14.4"],\
           ["@evan/opus", "npm:1.0.3"],\
           ["discord-player", "virtual:fea6d75a892626ad6ab0aa86c4c7ac9359db361474c5fddeb9908a942340eba6f8f6f4ff61412f591318bea8d4f9c6ee890e74bdbba3a0b34ad417f4d108ea37#npm:6.6.9-dev.1"],\
           ["discord.js", "npm:14.15.3"],\
@@ -232,16 +232,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@distube/ytdl-core", [\
-      ["npm:4.13.5", {\
-        "packageLocation": "../../.yarn/berry/cache/@distube-ytdl-core-npm-4.13.5-47cd35b155-10c0.zip/node_modules/@distube/ytdl-core/",\
+      ["npm:4.14.4", {\
+        "packageLocation": "../../.yarn/berry/cache/@distube-ytdl-core-npm-4.14.4-80f258398a-10c0.zip/node_modules/@distube/ytdl-core/",\
         "packageDependencies": [\
-          ["@distube/ytdl-core", "npm:4.13.5"],\
-          ["http-cookie-agent", "virtual:47cd35b155494fa598e72f9e1ce8b337a4513ce1f3cbd9d1d8a6b62ead8cedcb12b9f92e0b8dd052dd24a0c8678df4ef211b20efab89b44c8e3404dc355a07be#npm:6.0.5"],\
+          ["@distube/ytdl-core", "npm:4.14.4"],\
+          ["http-cookie-agent", "virtual:80f258398ac06cc99c49c8186a9146d5c4ef13eefa774de630114f562a2efb0a5b5f377ecb425e440aaeb2c8e6a68ffac5ef8c9a0fb4bc8e018c095b8e1db953#npm:6.0.5"],\
           ["m3u8stream", "npm:0.8.6"],\
           ["miniget", "npm:4.2.3"],\
           ["sax", "npm:1.4.1"],\
           ["tough-cookie", "npm:4.1.4"],\
-          ["undici", "npm:6.19.4"]\
+          ["undici", "npm:5.28.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -251,6 +251,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@evan-opus-npm-1.0.3-a742198c9a/node_modules/@evan/opus/",\
         "packageDependencies": [\
           ["@evan/opus", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@fastify/busboy", [\
+      ["npm:2.1.1", {\
+        "packageLocation": "../../.yarn/berry/cache/@fastify-busboy-npm-2.1.1-455d8b6bf5-10c0.zip/node_modules/@fastify/busboy/",\
+        "packageDependencies": [\
+          ["@fastify/busboy", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1461,15 +1470,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:47cd35b155494fa598e72f9e1ce8b337a4513ce1f3cbd9d1d8a6b62ead8cedcb12b9f92e0b8dd052dd24a0c8678df4ef211b20efab89b44c8e3404dc355a07be#npm:6.0.5", {\
-        "packageLocation": "./.yarn/__virtual__/http-cookie-agent-virtual-b09f50af67/3/.yarn/berry/cache/http-cookie-agent-npm-6.0.5-b92d7b7946-10c0.zip/node_modules/http-cookie-agent/",\
+      ["virtual:80f258398ac06cc99c49c8186a9146d5c4ef13eefa774de630114f562a2efb0a5b5f377ecb425e440aaeb2c8e6a68ffac5ef8c9a0fb4bc8e018c095b8e1db953#npm:6.0.5", {\
+        "packageLocation": "./.yarn/__virtual__/http-cookie-agent-virtual-f4eff59271/3/.yarn/berry/cache/http-cookie-agent-npm-6.0.5-b92d7b7946-10c0.zip/node_modules/http-cookie-agent/",\
         "packageDependencies": [\
-          ["http-cookie-agent", "virtual:47cd35b155494fa598e72f9e1ce8b337a4513ce1f3cbd9d1d8a6b62ead8cedcb12b9f92e0b8dd052dd24a0c8678df4ef211b20efab89b44c8e3404dc355a07be#npm:6.0.5"],\
+          ["http-cookie-agent", "virtual:80f258398ac06cc99c49c8186a9146d5c4ef13eefa774de630114f562a2efb0a5b5f377ecb425e440aaeb2c8e6a68ffac5ef8c9a0fb4bc8e018c095b8e1db953#npm:6.0.5"],\
           ["@types/tough-cookie", null],\
           ["@types/undici", null],\
           ["agent-base", "npm:7.1.1"],\
           ["tough-cookie", "npm:4.1.4"],\
-          ["undici", "npm:6.19.4"]\
+          ["undici", "npm:5.28.4"]\
         ],\
         "packagePeers": [\
           "@types/tough-cookie",\
@@ -2077,7 +2086,7 @@ const RAW_RUNTIME_STATE =
           ["@discord-player/extractor", "npm:4.5.0"],\
           ["@discord-player/opus", "npm:0.1.2"],\
           ["@discordjs/opus", "npm:0.9.0"],\
-          ["@distube/ytdl-core", "npm:4.13.5"],\
+          ["@distube/ytdl-core", "npm:4.14.4"],\
           ["@evan/opus", "npm:1.0.3"],\
           ["discord-player", "virtual:fea6d75a892626ad6ab0aa86c4c7ac9359db361474c5fddeb9908a942340eba6f8f6f4ff61412f591318bea8d4f9c6ee890e74bdbba3a0b34ad417f4d108ea37#npm:6.6.9-dev.1"],\
           ["discord.js", "npm:14.15.3"],\
@@ -3220,6 +3229,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici", [\
+      ["npm:5.28.4", {\
+        "packageLocation": "../../.yarn/berry/cache/undici-npm-5.28.4-63fa65e206-10c0.zip/node_modules/undici/",\
+        "packageDependencies": [\
+          ["undici", "npm:5.28.4"],\
+          ["@fastify/busboy", "npm:2.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:6.13.0", {\
         "packageLocation": "../../.yarn/berry/cache/undici-npm-6.13.0-1545cd855e-10c0.zip/node_modules/undici/",\
         "packageDependencies": [\
